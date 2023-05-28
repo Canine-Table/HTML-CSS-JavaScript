@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Splash Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.techforpc.com%2Fwp-content%2Fuploads%2F2016%2F06%2Fninesky-browser-pc-windows-7810-mac-computer-free-download.png%3Ffit%3D512%252C512%26ssl%3D1&f=1&nofb=1&ipt=7a5e21668a7a4734ad9f2fea56066316adaf68060766a2e8d1b2f6920caab392&ipo=images"/>
+    </head>
+    <body>
+        <div class="outerDivs" id="outerTopDiv">
+            <header class="innerDivs" id="innerTopHeader">
+                <span class="innerTopHeaderElements" id="DateandTime">
+                </span>
+                <span class="tabButtons closeButton" id="closeTabPage" onclick="tabSwitching(event, 'iFrame-Tab')">❌</span>
+            </header>
+        </div>
+        <div class="outerDivs" id="outerCenterDiv">
+            <div class="innerDivs" id="innerCenterLeftPanelDiv">
+                <div id="innerCenterCenterLeftPanelDiv">
+                    <button class="tabButtons tabTooltip" id="My-Favorite-Websites-Button" onclick="tabSwitching(event, 'My-Favorite-Websites-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Favorites</span>
+                    </button>                    
+                    <button class="tabButtons tabTooltip" id="Algonquin-College-Button" onclick="tabSwitching(event, 'Algonquin-College-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Algonquin</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Programming-Toolkit-Button" onclick="tabSwitching(event, 'Programming-Toolkit-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Software</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Linux-Documentation-Button" onclick="tabSwitching(event, 'Linux-Documentation-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Linux</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Microsoft-Windows-Documentation-Button" onclick="tabSwitching(event, 'Microsoft-Windows-Documentation-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Windows</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Networking-Happy-Hour-Button" onclick="tabSwitching(event, 'Networking-Happy-Hour-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Networks</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="American-Standard-Code-For-Information-Button" onclick="tabSwitching(event, 'American-Standard-Code-For-Information-Tab')">
+                        <span class="tabTooltip-Text"><br><br>ASCII</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Writing-and-Communications-Button" onclick="tabSwitching(event, 'Writing-and-Communications-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Writing</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Mathematics-Button" onclick="tabSwitching(event, 'Mathematics-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Math</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Streaming-Services-Button" onclick="tabSwitching(event, 'Streaming-Services-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Streaming</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Conversions-Toolkit-Button" onclick="tabSwitching(event, 'Conversions-Toolkit-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Formats</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Editing-Toolkit-Button" onclick="tabSwitching(event, 'Editing-Toolkit-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Editing</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Images-and-Icons-Button" onclick="tabSwitching(event, 'Images-and-Icons-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Images</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Adobe-Creative-Cloud-Applications-Button" onclick="tabSwitching(event, 'Adobe-Creative-Cloud-Applications-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Adobe</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Google-Applications-Button" onclick="tabSwitching(event, 'Google-Applications-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Google</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Microsoft-Applications-Button" onclick="tabSwitching(event, 'Microsoft-Applications-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Office365</span>
+                    </button>
+                    <button class="tabButtons tabTooltip" id="Widget-Button" onclick="tabSwitching(event, 'Widget-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Widgets</span>
+                    </button>                    
+                    <button class="tabButtons tabTooltip" id="Archives-and-Bookmarks-Button" onclick="tabSwitching(event, 'Archives-and-Bookmarks-Tab')">
+                        <span class="tabTooltip-Text"><br><br>Archives</span>
+                    </button>
+                    <div id="innerCenterBottomLeftPanelDiv">
+
+                    </div>
+                </div>
+            </div>
+            <div class="innerDivs" id="innerCenterCenterPanelDiv">
+                <div id="innerInnerCenterCenterDiv">
+                    <video id="Background-Video" autoplay muted loop>
+                        <source id="VideoURL" src="https://archive.org/download/alivecanada4k/ALIVE%20-%20Canada%204K.mp4" type="video/mp4">
+                    </video>
+                    <iframe  class="tabPanelContents" id="iFrame-Tab"  src="https://www.youtube.com/embed/zZ6vybT1HQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                    <div class="tabPanelContents" id="My-Favorite-Websites-Tab">
+                        <p>
+                            <hr class="Divider" id="FavoriteHeader">
+                        </p>
+                        <div class="tabPanelContentsInnerDiv" id="My-Favorite-Websites-Tab-Div">
+                            <button class="tabPanelButtons" id="fv_redketchup">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Red Ketchup</span>
+                            </button>
+                            <button class="tabPanelButtons" id="fv_base64Converter">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Base64 Converter</span>
+                            </button>
+                            <button class="tabPanelButtons" id="fv_fontGuru">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Font Guru</span>
+                            </button>
+                            <button class="tabPanelButtons" id="fv_discord">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Discord</span>
+                            </button>
+                            <button class="tabPanelButtons" id="fv_wolframeAlpha">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Wolframe Alpha</span>
+                            </button>
+                            <button class="tabPanelButtons" id="fv_conversio">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Convertio</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Algonquin-College-Tab">
+                        <p>
+                            <hr class="Divider" id="AlgonquinHeader">
+                        </p>
+                        <div class="tabPanelContentsInnerDiv" id="Algonquin-College-Tab-Div">
+                            <button class="tabPanelButtons" id="ac_homepage">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Algonquin College</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ac_library">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Algonquin College Library</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ac_acsis">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>A.C.S.I.S.</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ac_software">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Digital Resource Poral</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ac_eventbrite">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Event<br>Brite</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Programming-Toolkit-Tab">
+                        <hr class="Divider" id="ProgrammingHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Programming-Toolkit-Tab-Div">
+                            <button class="tabPanelButtons" id="pt_ahkdocumentation">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>AutoHotkey<br>Documents</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_automator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>The<br>Automator</span>
+                            </button>					
+                            <button class="tabPanelButtons" id="pt_javapoint">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>JavaPoint</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_github">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Github</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_githubcodespace">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Github<br>Code<br>Space</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_w3School">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>W3 School<br>Learn to<br>Code</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_openjfx">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>JavaFX</span>
+                            </button> 					
+                            <button class="tabPanelButtons" id="pt_overapi">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Over<br>API</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_chatgpt">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Open<br>Artificial<br>intelligence</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_lucidchart">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Lucid<br>Chart</span>
+                            </button>           
+                            <button class="tabPanelButtons" id="pt_regex">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Regular<br>Expressions<br>Buddy</span>
+                            </button>
+                            <button class="tabPanelButtons" id="pt_browserling">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Testing<br>For<br>Regular<br>Expressions</span>
+                            </button>  
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Linux-Documentation-Tab">
+                        <hr class="Divider" id="LinuxHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Linux-Documentation-Tab-Div">
+                            <button class="tabPanelButtons" id="ln_bashguide">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Bash<br>Guide</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_learningtheshell">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Linux<br>Shell<br>Commands</span>
+                            </button>
+                            <button class="tabPanelButtons" class="tabPanelButtons" id="ln_devhints">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Dev<br>Bash<br>Hints</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_linuxjourney">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Linux<br>Journey</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_linux">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Linux</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_gnu">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>GNU's<br>Not<br>Unix</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_linfo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Linux<br>Info</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_tutorialspoint">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Unix<br>Index</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ln_vimadventures">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Vim<br>Adventures</span>
+                            </button>        
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Microsoft-Windows-Documentation-Tab">
+                        <hr class="Divider" id="WindowsHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Microsoft-Windows-Documentation-Tab-Div">               
+                            <button class="tabPanelButtons" id="wd_cmdreference">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Command<br>Line<br>Reference</span>
+                            </button>
+                            <button class="tabPanelButtons" id="wd_windowshelp">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Microsoft<br>Support</span>
+                            </button>
+                            <button class="tabPanelButtons" id="wd_certifications">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Microsoft<br>Certificates</span>
+                            </button>
+                            <button class="tabPanelButtons" id="wd_hwiegmandesktopini">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Desktop.ini</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Networking-Happy-Hour-Tab">
+                        <hr class="Divider" id="NetworkHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Networking-Happy-Hour-Tab-Div">
+                            <button class="tabPanelButtons" id="nw_computersolutions">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Computer<br>Solutions</span>
+                            </button>
+                            <button class="tabPanelButtons"  id="nw_submarinecablemap">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Submarine<br>Cable<br>Map</span>
+                            </button>
+                            <button class="tabPanelButtons" id="nw_wiresharkOUI">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Wireshark<br>OUI<br>Lookup</span>
+                            </button>
+                            <button class="tabPanelButtons" id="nw_cisco">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Cisco<br>Netacad</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="American-Standard-Code-For-Information-Tab">
+                        <hr class="Divider" id="ASCIIHeader">
+                        <div class="tabPanelContentsInnerDiv" id="American-Standard-Code-For-Information-Tab-Div">
+                            <button class="tabPanelButtons" id="ascii_fontguru">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Font<br>Guru</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_fontspace">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Font<br>Space</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_coolsymbols">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Cool<br>Symbols</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_code">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>A.S.C.I.I.<br>Code</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_pictureartgenerator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>A.S.C.I.I.<br>Image<br>Art<br>Generator</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_wordartgenerator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>A.S.C.I.I.<br>Word<br>Art<br>Generator</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_photoartgenerator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>A.S.C.I.I<br>Photo<br>Art<br>Generator</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_utf8icons">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>UTF-8<br>Icons</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_manytools">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Many<br>Tools</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_thefancy">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Fancy<br>Text</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ascii_thecool">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Title<br>Generator</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Writing-and-Communications-Tab">
+                        <hr class="Divider" id="CommunicationsHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Writing-and-Communications-Tab-Div">
+                            <button class="tabPanelButtons" id="en_lorem">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Lorem<br>Ipsum</span>
+                            </button>
+                            <button class="tabPanelButtons" id="en_hyperwrite">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Hyper<br>Write</span>
+                            </button>
+                            <button class="tabPanelButtons" id="en_ieeecitationgenerator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>IEEE<br>Citation<br>Generator</span>
+                            </button>
+                            <button class="tabPanelButtons" id="en_ipl">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>IPL</span>
+                            </button>
+                            <button class="tabPanelButtons" id="en_socialself">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Social<br>Self</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Mathematics-Tab">
+                        <hr class="Divider" id="MathematicsHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Mathematics-Tab-Div">
+                            <button class="tabPanelButtons" id="ma_rapidtables">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Rapid<br>Table</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_coderstoolbox">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Coder's<br>Toolbox</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_unitconversions">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Unit<br>Converter</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_wolframealpha">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Wolframe<br>Alpha</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_precisioncalculator">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Precision<br>Calculator</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_mathcha">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Mathcha</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ma_boolean_algebra">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Boolean<br>Algebra<br>Calculator</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="ma_emathhelp">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Boolean<br>XOR<br>Calculator</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Streaming-Services-Tab">
+                        <hr class="Divider" id="StreamingHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Streaming-Services-Tab-Div">
+                            <button class="tabPanelButtons" id="ss_youtube">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Youtube</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_netflix">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Netflix</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_123moviesto">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>123<br>Movies-to</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_123moviesfree">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>123<br>Movies<BR>Free</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="ss_fmoviesfree">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>FMovies<br>Free</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_gmovies">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Go<br>Movies</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_hdtoday">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>HD<br>Today</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_soaptodayfree">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Soap<br>Today<br>Free</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_9anime">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>9<br>Anime</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_kissanime">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Kiss<br>Anime</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_4_anime">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>4<br>Anime</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ss_123moviefree02e">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>123Movies<br>Free<br>cyou</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Conversions-Toolkit-Tab">
+                        <hr class="Divider" id="ConversionsHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Conversions-Toolkit-Tab-Div">
+                            <button class="tabPanelButtons" id="cv_conversio">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Conversio</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_freeconvert">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Free<br>Convert</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_ilovepdfs">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>I<br>Love<br>PDF's</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_redketchup">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Red<br>Ketchup</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_imagetopdfconverter">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Image<br>to<br>PDF<br>Converter</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_getmp3">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Get<br>mp3<br>Pro</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_youtubetomp3">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Youtube<br>to<br>mp3</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_onlymp3">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Only<br>mp3</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_y2matemp3">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Y2Mate<br>mp3</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_ytmp3hub">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Youtube<br>mp3<br>Hub</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="cv_onlineconvert">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Online<br>Convert</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_videotogif">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Video<br>to<br>Gif</span>
+                            </button>		
+                            <button class="tabPanelButtons" id="cv_videotogif">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Y2<br>Mate<br>Youtube<br>Downloader</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_yout">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Yout</span>
+                            </button>
+                            <button class="tabPanelButtons" id="cv_cloudconvert">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Cloud<br>Convert</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Editing-Toolkit-Tab">
+                        <hr class="Divider" id="EditingHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Editing-Toolkit-Tab-Div">
+                            <button class="tabPanelButtons" id="ed_backgroundremover">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Background<br>Remover</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_pixmiller">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Pix<br>Miller</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_whiteremover">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>White<br>Remover</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_veed">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Veed<br>Gif<br>Editor</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_filmora">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Filmora<br>Meme<br>Maker</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_clideo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Clideo</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_squoosh">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Squoosh</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ed_pdfescape">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>PDF<br>Escape</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Images-and-Icons-Tab">
+                        <hr class="Divider" id="ImagesHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Images-and-Icons-Tab-Div">
+                            <button class="tabPanelButtons" id="co_devianart">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Devian<br>Art</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_discadia">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Discadia</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_giphy">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Giffy</span>
+                            </button>	
+                            <button class="tabPanelButtons" id="co_tenor">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Tenor</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_hotsymbol">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Hot<br>Symbols</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_icon_archive">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Icon<br>Archive</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_icon8">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Icon 8</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_the_noun_project">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>The<br>Noun<br>Project</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_shutter">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Shutter<br>Stock</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_pixbay">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Pixbay</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_cleanpng">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Clean<br>PNGs</span>
+                            </button>
+                            <button class="tabPanelButtons" id="co_pixlr">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Pixlr</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Adobe-Creative-Cloud-Applications-Tab">
+                        <hr class="Divider" id="AdobeHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Adobe-Creative-Cloud-Applications-Tab-Div">
+                            <button class="tabPanelButtons" id="ad_frameio">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Frame.io</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_creativecloud">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Crearive<br>Cloud</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_adobeacrobat">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Acrobat</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_adobeexpress">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Express</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_adobecolor">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Color</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_substance3d">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Substance<br>3D</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_substance3dcommunity">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Substance<br>3D<br>Community</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_lightroom">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Lightroom</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_portfolio">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Portfolio</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_stock">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Stock</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_behance">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Behance</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_mixamo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Mixamo</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_fonts">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Fonts</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_photoshop">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>PhotoShop</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_experienceleaguecommunity">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Experience<br>League<br>Community</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_creativecloudtutorials">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Creative<br>Cloud<br>Tutorials</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ad_supportcommunity">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Adobe<br>Support<br>Community</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Google-Applications-Tab">
+                        <hr class="Divider" id="GoogleHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Google-Applications-Tab-Div">
+                            <button class="tabPanelButtons" id="go_google">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Chrome</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_letmegooglethatforyou">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Let me<br>Google<br>That<br>For You</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_docs">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Docs</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googleforms">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Forms</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googlekeep">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Keeps</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googlepresentation">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Slides</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googlespreadsheets">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Spread<br>Sheets</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googlemail">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Mail</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googletranslate">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Translate</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_googledrive">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Drive</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_blogger">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Blogs</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_gprivate">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Private</span>
+                            </button>
+                            <button class="tabPanelButtons" id="go_webstore">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Google<br>Extentions<br>Store</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Microsoft-Applications-Tab">
+                        <hr class="Divider" id="Office365Header">
+                        <div class="tabPanelContentsInnerDiv" id="Microsoft-Applications-Tab-Div">
+                            <button class="tabPanelButtons" id="mo_outlook">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Outlook</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_onedrive">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>OneDrive</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_word">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Word</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_excel">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Excel</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_powerpoint">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>PowerPoint</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_onenote">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>OneNote</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_sway">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Sway</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_forms">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Forms</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_stream">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Stream</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_visco">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Visco</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="mo_planner">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Planner</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_sharepoint">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Lists</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_powerbi">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Power<br>BI</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_powerapps">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Power<br>Apps</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_powerautomate">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Power<br>Automate</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_delve">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Delve</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_projects">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Projects</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_sharepoint">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>SharePoint</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_todo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>To Do</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_bing">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Microsoft<br>Bing</span>
+                            </button>
+                            <button class="tabPanelButtons" id="mo_msn">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Mainstream<br>Media</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="mo_azureportal">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Microsoft<br>Azure</span>
+                            </button>                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Widget-Tab">
+                        <hr class="Divider" id="WidgetHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Widget-Tab-Div">
+                            
+                        </div>
+                    </div>
+                    <div class="tabPanelContents" id="Archives-and-Bookmarks-Tab">
+                        <hr class="Divider" id="BookmarkHeader">
+                        <div class="tabPanelContentsInnerDiv" id="Archives-and-Bookmarks-Tab-Div">
+                            <button class="tabPanelButtons" id="ar_mail1io">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Mail<br>One</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_10minutemail">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Ten<br>Minute<br>Mail</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_protonmail">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Proton<br>Mail</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_fileinfo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>File<br>Info</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_hcaptcha">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>hCaptcha</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_duckduckgo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>DuckDuckGo</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_yandex_browser">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Yandex</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_maxask">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Maxthon</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_ecosia">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Ecosia</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_yahoo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Yahoo</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_weather">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Weather</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_crazygames">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Crazy<br>Games</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_base64encoder">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Base 64<br>Encoder</span>
+                            </button>	
+                            <button class="tabPanelButtons" id="ar_discord">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Discord</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_reddit">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Reddit</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_pinterest">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Pinterest</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_imagereader">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Image<br>Reader</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_archives">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Archives</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_quackit">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Quack<br>It</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_shapecatcher">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Shape<br>Catcher</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_cobratate">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Cobra<br>Tate</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_gettr">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>GETTR</span>
+                            </button>                
+                            <button class="tabPanelButtons" id="ar_videoglancer">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Video<br>Glancer</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_haveibeenpwned">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Have I<br>Been Pwned</span>
+                            </button>			
+                            <button class="tabPanelButtons" id="ar_tutanota">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Tatonuta</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_proton">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Proton<br>Mail</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_anonymsms">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Anonymsys</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_isgd">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Compress<br>That<br>Address</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_followchain">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Follow<br>Chain</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_softonic">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Softonic</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_filehippo">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>File<br>Hippo</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_ninite">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Nitite</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_alternativeto">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Alternative<br>To</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_random">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Random</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_randomlists">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Random<br>Lists</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_jit_si">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Jit Si<br>Meet</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_fast">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Fast</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_everytimezone">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Every<br>Time<br>Zone</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_namechk">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Name<br>Check</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_downforeveryoneorjustme">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Down for<br>Everyone?</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_privnote">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Private<br>Note</span>
+                            </button>
+                            <button class="tabPanelButtons" id="ar_diffchecker">
+                                <span class="tabPanelButtons-Tooltip-Text"><br>Diff<br>Checker</span>
+                            </button>	
+                        </div>
+                    </div>             
+                </div>
+            </div>
+            <div class="innerDivs" id="innerCenterRightPanelDiv">
+
+            </div>
+        </div>
+        <div class="outerDivs" id="outerBottomDiv">
+            <footer class="innerDivs" id="innerBottomFooter">
+
+            </footer>
+        </div>
+        <script type="text/Javascript" src="script.js"></script>
+    </body>
+</html>

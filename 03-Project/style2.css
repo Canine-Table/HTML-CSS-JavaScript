@@ -1,0 +1,75 @@
+body
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: blanchedalmond;
+        margin: 0;
+    }
+.headerDiv
+    {
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+    }
+
+section, nav, footer
+    {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+.mainMenu, ul
+    {
+        display: flex;
+        list-style: none;
+    }
+.mainMenu, li
+    {
+        margin: 7vw;
+    }
+.centerDiv 
+    {
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+    }
+
+.Icon
+    {
+        display: flex;
+        justify-content: center;
+        padding: 3vw;
+    }
+.centerSection
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.footerDiv
+    {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.5vh;
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .copyrightFooterDiv
+    {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 2vw;
+        width: 100vw;
+        font-size: 1vw;
+        height: 5vh;
+    }

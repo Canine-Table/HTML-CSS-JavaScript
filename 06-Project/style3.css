@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+#mainBody {
+    position: absolute;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    flex-basis: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#navDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#topNavBar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 36px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#unorderedMenu {
+    display: flex;
+}
+#topNavBar {
+    display: flex;
+    background-color: gainsboro;
+}
+
+a {
+    margin-right: 10vw;
+
+}
+
+#centerSection {
+    display: flex;
+    flex-direction: column;
+    background-image: -webkit-linear-gradient(bottom right, #FC2E20, #FD7F20, #FDB750);
+    flex-basis: 93vh;
+    justify-content: center;
+    align-items: center;
+}
+#Icon {
+    display: flex;
+    margin-bottom: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerSection {
+    display: flex;
+}
+
+#footerDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#topFooter {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 7.5vh;
+    font-size: 3vh;
+    padding-top: 2vh;
+    justify-content: flex-end;
+    padding-left: 2vw;
+}
+
+#bottomFooter {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 7.5vh;
+    font-size: 3vh;
+    padding-left: 2vw;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    justify-content: center;
+    background-color: gray;   
+}
+
+#annoyingAd {
+    top: 50px;
+    left: 10px;
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    font-style: oblique;
+    border: 5px groove beige;
+    padding-top: 8px;
+    border-radius: 50px;
+    width: 130px;
+    text-align: center;
+    position: fixed;
+    background-image: -webkit-linear-gradient(left, #F53803, #303443, #FFDD00);
+}

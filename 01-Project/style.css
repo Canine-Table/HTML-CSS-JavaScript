@@ -1,0 +1,34 @@
+p {
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+table, thead, tbody, tr, th, td {
+    border: 2px solid black; /* short for
+    border-width: 2px;
+    border-style: solid; (required)
+    border-color: black;
+    */
+}
+#exampleImage {
+    text-align: center;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
+#exampleVideo {
+    text-align: center;
+    max-width: 50%;
+    width: 50%;
+    height: auto; 
+}
+#youtubeExample {
+    text-align: center;
+    max-width: 50%; 
+    width: 50%;
+    height: auto;
+}
+#exampleBold {
+    color: 000000;
+    background-color: aqua;
+    display: block;
+}
